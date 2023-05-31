@@ -11,6 +11,12 @@
     "light": "#7487FF",
     "dark": "#405BFF"
   },
+  "topbarLinks": [
+    {
+    "name": "Book a Demo", 
+    "url": "https://blockless.network/book-a-demo"
+    }
+  ],
   "topbarCtaButton": {
     "name": "Login",
     "url": "https://dashboard.blockless.network/"
@@ -21,25 +27,63 @@
   },
   "anchors": [
     {
-      "name": "API Reference",
-      "icon": "rectangle-terminal",
-      "url": "api-reference"
+      "name": "Protocol",
+      "icon": "globe",
+      "url": "protocol"
     },
     {
-      "name": "Changelog",
-      "icon": "list",
-      "url": "https://mintlify.com"
+      "name": "Functions",
+      "icon": "circle-nodes",
+      "url": "functions"
     },
     {
-      "name": "Community",
-      "icon": "discord",
-      "url": "https://mintlify.com/community"
+      "name": "Developer Tools",
+      "icon": "hammer",
+      "url": "developer-tools"
+    },
+    {
+      "name": "Reference",
+      "icon": "magnifying-glass",
+      "url": "reference"
     }
   ],
   "navigation": [
     {
       "group": "Get Started",
       "pages": ["home"]
+    },
+    {
+      "group": "Protocol",
+      "pages": [
+        "protocol/overview",
+        "protocol/core-concepts",
+        {
+          "group": "Networking",
+          "pages": [
+            "protocol/networking/overview"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "Functions",
+      "pages": [
+        "functions/overview",
+        "functions/quickstart",
+        "functions/function-manifest"
+      ]
+    },
+    {
+      "group": "Developer Tools",
+      "pages": [
+        "developer-tools/overview"
+      ]
+    },
+    {
+      "group": "Reference",
+      "pages": [
+        "reference/networking"
+      ]
     }
   ],
   "footerSocials": {

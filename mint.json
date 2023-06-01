@@ -25,25 +25,21 @@
     "name": "Home",
     "icon": "house"
   },
-  "anchors": [
+  "tabs": [
     {
       "name": "Protocol",
-      "icon": "globe",
       "url": "protocol"
     },
     {
       "name": "Functions",
-      "icon": "circle-nodes",
       "url": "functions"
     },
     {
       "name": "Developer Tools",
-      "icon": "hammer",
       "url": "developer-tools"
     },
     {
       "name": "Reference",
-      "icon": "magnifying-glass",
       "url": "reference"
     }
   ],
